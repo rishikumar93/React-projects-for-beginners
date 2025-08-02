@@ -1,5 +1,8 @@
 import * as yup from "yup";
 
+// This code defines a form validation schema using yup, a popular JavaScript schema builder for 
+// value parsing and validation. It's often used with react-hook-form to enforce rules on form inputs.
+
 const formSchema = yup.object().shape({
     fullName: yup
     .string()
@@ -62,3 +65,5 @@ const formSchema = yup.object().shape({
 });
 
 export default formSchema;
+
+
